@@ -1,0 +1,191 @@
+body {
+
+}
+
+.mainHeader {
+    font-family: 'Palatino Linotype';
+    font-weight: bolder;
+    text-align: center;
+    font-variant: small-caps;
+    background-color: black;
+    color: white;
+    font-size: 60px;
+    opacity: 0.9;
+	text-shadow: 0 1px 0 #000,
+               0 2px 0 #fff,
+               0 3px 0 #000,
+               0 4px 0 #000,
+               0 5px 0 #000,
+               0 6px 1px rgba(0,0,0,.1),
+               0 0 5px rgba(0,0,0,.1),
+               0 1px 3px rgba(0,0,0,.3),
+               0 3px 5px rgba(0,0,0,.2),
+               0 5px 10px rgba(0,0,0,.25),
+               0 10px 10px rgba(0,0,0,.2),
+               0 20px 20px rgba(0,0,0,.15);
+}
+.steakImage {
+    max-width: 100%;
+    height: auto;
+}
+
+.secondHeader {
+    width: 90%;
+    margin:auto;
+    font-family: 'Palatino Linotype';
+    font-weight: bolder;
+    text-align: center;
+    font-variant: small-caps;
+    background-color:darkgrey;
+    color: black;
+    font-size: 45px;
+    opacity: 0.5;
+    margin-top: -120px;
+    border-radius: 5px;
+}
+.mainMenu{
+    margin: auto;
+    text-align: center;
+}
+
+.accordionchik {
+    margin: auto;
+    text-align: center;
+    font-weight: bolder;
+    text-align: center;
+    font-variant: small-caps;
+    font-size: 25px;
+    display: block;
+	
+	
+   
+}
+.accordionchik1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+	
+}
+
+.grillButtonWrap {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+	
+    
+}
+#firstSideGrillButton {
+	border: solid;
+	border: 5px;
+	border-radius: 50%;
+	box-shadow: 0px 3px 15px rgba(0,0,0,.4), inset 0px 1px 0px rgba(255,255,255,.3), inset 0px 0px 3px rgba(255,255,255,.5);
+	animation-name: example;
+	
+}
+#secondSideGrillButton {
+	border: solid;
+	border: 5px;
+	border-radius: 50%;
+	box-shadow: 0px 3px 15px rgba(0,0,0,.4), inset 0px 1px 0px rgba(255,255,255,.3), inset 0px 0px 3px rgba(255,255,255,.5);
+	animation-name: example;
+	animation-duration: 1s;
+	margin-top: -30px;
+	
+
+	
+}
+@keyframes example {
+  from {
+		margin-top: -700px;
+	
+  }
+	to {
+		margin-top: -30px;
+		
+	}
+}
+#restartGrillButton {
+	border: solid;
+	border: 5px;
+	border-radius: 50%;
+	box-shadow: 0px 3px 15px rgba(0,0,0,.4), inset 0px 1px 0px rgba(255,255,255,.3), inset 0px 0px 3px rgba(255,255,255,.5);
+	animation-name: example;
+	animation-duration: 1s;
+	font-size: 30px;
+	margin-top: -30px;
+	
+}
+
+.grillButton {
+    width: 140px;
+	height: 140px;
+
+}
+.mainButton {
+	box-shadow: 0px 3px 15px rgba(0,0,0,.4), inset 0px 1px 0px rgba(255,255,255,.3), inset 0px 0px 3px rgba(255,255,255,.5);
+}
+
+.steakTimer {
+    font-family: 'Palatino Linotype';
+    font-weight: bolder;
+    text-align: center;
+    font-variant: small-caps;
+    font-size: 120px;
+    text-shadow: 0 20px 20px rgba(0,0,0,.25);
+
+}
+
+
+.stars {
+		font-size: 12px;
+		
+	}
+
+.w75 {
+		width: 75%;
+	}
+@media only screen and (max-width: 800px) {
+    .secondHeader {
+        font-size: 40px;
+        margin-top: -100px;
+    }
+}
+@media only screen and (max-width: 750px) {
+    .mainHeader {
+        font-size: 50px;
+    }
+    .secondHeader {
+        font-size: 30px;
+        margin-top: -50px;
+    }
+    .accordionchik1 {
+        margin-top: 50px;
+    }
+    .accordionchik {
+        font-size: 18px;
+    }
+	
+}
+@media only screen and (max-width: 550px) {
+	
+	
+    .secondHeader {
+        font-size: 20px;
+        margin-top: -45px;
+    }
+	.stars {
+		font-size: 7px;
+	}
+	.w75 {
+		width: 100%;
+	}
+	
+    
+
+}
+.form-check {
+	padding-top: 4px;
+}
+

@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, shrink-to-fit=no" />
+    <link href="styles.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">   
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+	<title>Steak Time</title>
+</head>
+
+<body>
+    
+      
+	<div class="mainHeader">Steak <i class="fas fa-stopwatch"></i> Time</div>
+	<div>
+		<img  class="steakImage" src="img/steak.jpg" />
+		<p class="secondHeader mainButton">Your Ultimate Steak Guide</p>
+	</div>
+
+	<div class="w75 p-3" id="accordion" style="margin: auto; margin-top: 50px; font-family: 'Palatino Linotype'; font-weight: 900;">
+		<div class="card" style="border-width: 0.5px; margin-top: 3px">
+			<button class="btn btn-warning 	mainButton" id="headingOne">
+				<h5 class="mb-0">
+					<div  data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne" style=" font-family: 'Palatino Linotype'; font-weight: 900; font-variant: small-caps">
+						Steak Cut
+					</div>
+				</h5>
+			</button>
+			<div id="collapseOne" class="collapse"  aria-labelledby="headingOne" data-parent="#accordion">
+				<div class="card-body">
+					<div class="form-check">
+						<input class="form-check-input" style="width: 20px; height: 45px" type="radio" name="cutRadio" id="cutRadioPorterHouse" value="option1" checked>
+						<label class="form-check-label" for="cutRadioPorterHouse">
+							<img src="img/SteakCut/Porterhouse.png" style="width: 60px;"/> Porterhouse / T-Bone
+						</label>
+					</div>
+					<div class="form-check">
+						<input class="form-check-input" style="width: 20px; height: 45px;" type="radio" name="cutRadio" id="cutRadioNewYork" value="option2">
+						<label class="form-check-label" for="cutRadioNewYork">
+							&nbsp <img src="img/SteakCut/NewYork.png" style="width: 60px;"/> New York
+						</label>
+					</div>
+					<div class="form-check">
+						<input class="form-check-input" style="width: 20px; height: 45px;" type="radio" name="cutRadio" id="cutRadioRibeye" value="option3">
+						<label class="form-check-label" for="cutRadioRibeye">
+							&nbsp <img src="img/SteakCut/RibEye.png" style="width: 60px;"/> Ribeye
+						</label>
+					</div>
+					<div class="form-check">
+						<input class="form-check-input" style="width: 20px; height: 45px;" type="radio" name="cutRadio" id="cutRadioSirloin" value="option4">
+						<label class="form-check-label" for="cutRadioSirloin">
+							&nbsp <img src="img/SteakCut/Sirloin.png" style="width: 60px;"/> Sirloin
+						</label>
+					</div>
+					<div class="form-check">
+						<input class="form-check-input" style="width: 20px; height: 45px;" type="radio" name="cutRadio" id="cutRadioTenderloin" value="option5">
+						<label class="form-check-label" for="cutRadioTenderloin">
+							<img src="img/SteakCut/Tenderloin.png" style="width: 60px;"/> Filet Mignon / Tenderloin
+						</label>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="card" style="border-width: .5px; margin-top: 3px;">
+			<button class="btn btn-warning mainButton	" id="headingTwo">
+				<h5 class="mb-0">
+					<div  data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo" style=" font-family: 'Palatino Linotype'; font-weight: 900; font-variant: small-caps">
+						Thickness
+					</div>
+				</h5>
+			</button>
+			<div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+				<div class="card-body">
+					<div class="form-check">
+						<input class="form-check-input" style="width: 20px; height: 45px;" type="radio" name="thicknessRadio" id="thicknessRadio3/4" value="option7" checked>
+						<label class="form-check-label" for="thicknessRadio3/4">
+							&nbsp <img src="img/Size/Penny.jpg" style="width: 45px;"/> &nbsp 3/4 inches
+						</label>
+					</div>
+					<div class="form-check">
+						<input class="form-check-input" style="width: 20px; height: 45px;" type="radio" name="thicknessRadio" id="thicknessRadio1" value="option8">
+						<label class="form-check-label" for="thicknessRadio1">
+							&nbsp <img src="img/Size/Quarter.jpg" style="width: 45px;"/> &nbsp 1 inch
+						</label>
+					</div>
+					<div class="form-check">
+						<input class="form-check-input" style="width: 20px; height: 45px;" type="radio" name="thicknessRadio" id="thicknessRadio1and1/2" value="option10">
+						<label class="form-check-label" for="thicknessRadio1and1/2">
+							&nbsp <img src="img/Size/Quarter.jpg" style="width: 45px;"/> <img src="img/Size/HalfQ.jpg" style="width: 23px;"/> &nbsp  1 1/2 inches
+						</label>
+					</div>
+					<div class="form-check">
+						<input class="form-check-input" style="width: 20px; height: 45px;" type="radio" name="thicknessRadio" id="thicknessRadio1and3/4" value="option11">
+						<label class="form-check-label" for="thicknessRadio1and3/4">
+							&nbsp <img src="img/Size/Quarter.jpg" style="width: 45px;"/> <img src="img/Size/Penny.jpg" style="width: 45px;"/>&nbsp 1 3/4 inches
+						</label>
+					</div>
+					<div class="form-check">
+						<input class="form-check-input" style="width: 20px; height: 45px;" type="radio" name="thicknessRadio" id="thicknessRadio2" value="option12">
+						<label class="form-check-label" for="thicknessRadio2">
+							&nbsp <img src="img/Size/Quarter.jpg" style="width: 45px;"/> <img src="img/Size/Quarter.jpg" style="width: 45px;"/>&nbsp 2 inches
+						</label>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+				<div class="card" style="border-width: 0.5px; margin-top: 3px">
+			<button class="btn btn-warning mainButton" id="headingTwo">
+				<h5 class="mb-0">
+					<div  data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree" style=" font-family: 'Palatino Linotype'; font-weight: 900; font-variant: small-caps">
+						Grill Type
+					</div>
+				</h5>
+			</button>
+			<div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+				<div class="card-body">
+					<div class="form-check">
+						<input class="form-check-input" style="width: 20px; height: 45px;" type="radio" name="grillTypeRadio" id="grillCharcoalTypeRadio" value="option13" checked>
+						<label class="form-check-label" for="grillCharcoalTypeRadio">
+							&nbsp <img src="img/Grill/CharcoalGrill.jpg" style="width: 60px;"/> &nbsp Charcoal Grill
+						</label>
+					</div>
+					<div class="form-check">
+						<input class="form-check-input" style="width: 20px; height: 45px;" type="radio" name="grillTypeRadio" id="grillGasTypeRadio" value="option14">
+						<label class="form-check-label" for="grillGasTypeRadio">
+							&nbsp <img src="img/Grill/GasGrill.jpeg" style="width: 60px;"/> &nbsp Gas Grill
+						</label>
+					</div>
+					<div class="form-check">
+						<input class="form-check-input" style="width: 20px; height: 45px;" type="radio" name="grillTypeRadio" id="grillPanTypeRadio" value="option15">
+						<label class="form-check-label" for="grillPanTypeRadio">
+							&nbsp <img src="img/Grill/fryingPan.jpeg" style="width: 60px;"/> &nbsp  Frying Pan
+						</label>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<div class="card" style="border-width: 0.5px; margin-top: 3px">
+			<button class="btn btn-warning mainButton" id="headingFour">
+				<h5 class="mb-0">
+					<div  data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour" style=" font-family: 'Palatino Linotype'; font-weight: 900; font-variant: small-caps">
+						Doneness
+					</div>
+				</h5>
+			</button>
+			<div id="collapseFour" class="collapse"  aria-labelledby="headingFour" data-parent="#accordion">
+				<div class="card-body">
+					<div class="form-check">
+						<input class="form-check-input" style="width: 20px; height: 45px" type="radio" name="donenessRadio" id="donenessRadioRare" value="option16" checked>
+						<label class="form-check-label" for="donenessRadioRare">
+							&nbsp <img src="img/Done/rare.jpg" style="width: 75px; height: 40px"/> Rare(120&#x2109) 
+							<a class="text-warning stars">
+								<i class="fa fa-star"></i>
+								<i class="fa fa-star"></i>
+								<i class="fa fa-star"></i>
+								<i class="fa fa-star"></i>
+								<i class="fas fa-star-half-alt"></i>
+							</a>
+						</label>
+					</div>
+					<div class="form-check">
+						<input class="form-check-input" style="width: 20px; height: 45px;" type="radio" name="donenessRadio" id="donenessRadioMediumRare" value="option17">
+						<label class="form-check-label" for="donenessRadioMediumRare">
+							&nbsp <img src="img/Done/mediumRare.jpg" style="width: 73px; height: 40px"/> Medium Rare(135&#8457)
+							<a class="text-warning stars">
+								<i class="fa fa-star"></i>
+								<i class="fa fa-star"></i>
+								<i class="fa fa-star"></i>
+								<i class="fa fa-star"></i>
+								<i class="fa fa-star"></i>
+							</a>
+						</label>
+					</div>
+					<div class="form-check">
+						<input class="form-check-input" style="width: 20px; height: 45px;" type="radio" name="donenessRadio" id="donenessRadioMedium" value="option18">
+						<label class="form-check-label" for="donenessRadioMedium">
+							&nbsp <img src="img/Done/medium.jpg" style="width: 75px; height: 40px"/> Medium(150&#8457)
+							<a class="text-warning stars">
+								<i class="fa fa-star"></i>
+								<i class="fa fa-star"></i>
+								<i class="fa fa-star"></i>
+								<i class="fa fa-star"></i>
+								<i class="far fa-star"></i>
+							</a>
+						</label>
+					</div>
+					<div class="form-check">
+						<input class="form-check-input" style="width: 20px; height: 45px;" type="radio" name="donenessRadio" id="donenessRadioMediumWell" value="option19">
+						<label class="form-check-label" for="donenessRadioMediumWell">
+							&nbsp <img src="img/Done/mediumWell.jpg" style="width: 75px; height: 40px"/> Medium Well(160&#8457)
+							<a class="text-warning stars">
+								<i class="fa fa-star"></i>
+								<i class="fa fa-star"></i>
+								<i class="fas fa-star-half-alt"></i>
+								<i class="far fa-star"></i>
+								<i class="far fa-star"></i>
+							</a>
+						</label>
+					</div>
+					<div class="form-check">
+						<input class="form-check-input" style="width: 20px; height: 45px;" type="radio" name="donenessRadio" id="donenessRadioWellDone" value="option20">
+						<label class="form-check-label" for="donenessRadioWellDone">
+							&nbsp <img src="img/Done/wellDone.jpg" style="width: 75px; height: 40px"/> Well Done(170&#8457)
+							<a class="text-warning stars">
+								<i class="fas fa-star-half-alt"></i>
+								<i class="far fa-star"></i>
+								<i class="far fa-star"></i>
+								<i class="far fa-star"></i>
+								<i class="far fa-star"></i>
+							</a>
+						</label>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+        
+		
+        <div>
+                
+                    <div class="steakTimer" id="timer">
+                        <p>&nbsp </p>
+                    </div>
+					<div >
+                       
+                    </div>
+        </div>
+		
+		
+	
+	<br>
+        <div class="grillButtonWrap">
+        <button class="btn btn-warning modalBtn grillButton" id="firstSideGrillButton" style="font-variant: small-caps; font-family: 'Palatino Linotype'; font-weight: 900;"
+            >First <i class="fab fa-hotjar fa-1x"></i> Side 
+        </button>
+        </div>
+		
+        <div class="grillButtonWrap">
+            <button id="secondSideGrillButton" style="font-family: 'Palatino Linotype'; font-weight: 900; font-variant: small-caps;" class="btn text-white bg-dark modalBtn grillButton">
+			<p>Second <i class="fab fa-hotjar fa-1x"></i> Side</p> 
+			</button>
+        </div>
+		
+        <div class="grillButtonWrap">
+            <button id="restartGrillButton" style="font-family: 'Palatino Linotype'; font-weight: 900; font-variant: small-caps;" class="btn text-white bg-dark modalBtn grillButton"><i class="fas fa-redo-alt"></i></button>
+        </div>
+		<br>
+		<br>
+		<br>
+		
+		
+
+        
+
+
+
+
+
+		<footer>
+		</footer>
+
+
+
+
+
+
+        
+  <script src="script.js"></script>
+ <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    </body>
+</html>
